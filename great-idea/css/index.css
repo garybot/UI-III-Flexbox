@@ -195,3 +195,21 @@ ul {
 	list-style: square;
 	list-style-position: inside;
 }
+
+@media (max-width: 600px) {
+	.row {
+		flex-direction: column;
+	}
+
+	.row section {
+		margin: 10px auto;
+	}
+
+	#services {
+		flex-direction: column-reverse;
+	}
+
+	.services-info-img {
+		margin-bottom: 20px;
+	}
+}
