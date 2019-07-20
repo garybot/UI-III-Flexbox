@@ -212,4 +212,8 @@ ul {
 	.services-info-img {
 		margin-bottom: 20px;
 	}
+
+	#services ul {
+		margin-top: 10px;
+	}
 }
